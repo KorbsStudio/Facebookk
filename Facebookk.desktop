@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Facebookk
+Icon=/usr/share/facebookk-linux/icon.png
+Exec=/usr/share/facebookk-linux/facebookk --no-sandbox
+Terminal=false
+Categories=Network;
+StartupWMClass=facebookk
+Actions=Messenger;
+
+[Desktop Action Messenger]
+Name=Messenger
+Exec=/usr/share/messenger-linux/messenger --no-sandbox
+Icon=/usr/share/messenger-linux/icon.png

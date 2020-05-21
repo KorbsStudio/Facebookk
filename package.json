@@ -1,0 +1,20 @@
+{
+  "name": "Facebookk",
+  "version": "0.0.3",
+  "description": "Electron Facebook Client.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "startWithTransparentOption": "electron --enable-transparent-visuals .",
+    "startWithAllOptions": "electron --enable-transparent-visuals --disable-gpu ."
+  },
+  "repository": "https://github.com/KorbsStudio/Facebookk/",
+  "author": "Korbs Studio",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.0.0"
+  },
+  "dependencies": {
+    "electron-packager": "^14.2.1"
+  }
+}
